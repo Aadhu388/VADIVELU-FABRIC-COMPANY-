@@ -1,10 +1,13 @@
 [project]
 name = "vadivelu-textiles-company"
 version = "0.1.0"
-description = "Add your description here"
+description = "FastAPI website"
 readme = "README.md"
 requires-python = ">=3.12"
+
 dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.29.0",
     "numpy>=2.3.5",
-    "pandas>=2.3.3",
+    "pandas>=2.3.3"
 ]
